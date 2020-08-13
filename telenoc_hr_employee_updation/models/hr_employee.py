@@ -11,3 +11,6 @@ class HrEmployee(models.Model):
     iqama_number = fields.Char('Iqama Number')
     iqama_date_of_issue = fields.Date('Date of Issue')
     iqama_date_of_expiry = fields.Date('Date of Expiry')
+    bank_name = fields.Char('Bank Name')
+    account_number = fields.Char('Account Number')
+    iban_number = fields.Char('IBAN Number')
